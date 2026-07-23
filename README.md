@@ -105,4 +105,4 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
-MIT © 2026 Ariel Lee. See LICENSE.
+MIT © 2026 Ariel Lee. [See LICENSE](LICENSE).
