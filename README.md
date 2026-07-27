@@ -1,6 +1,6 @@
 # wittgenstein-perspective
 
-A Claude Skill for working through a judgment, a problem, or an open question in a
+An AI Skill for working through a judgment, a problem, or an open question in a
 later-Wittgensteinian way: return words to their use, name the picture steering the problem, ask
 what would count as going on correctly, notice what stands fast, and bring inflated talk back down
 to ordinary practice.
