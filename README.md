@@ -60,7 +60,8 @@ wittgenstein-perspective/
 ├── SKILL.md                          # the skill: voice, refusals, ten moves, mode routing
 ├── references/
 │   ├── frameworks.md                 # term glossary in his sense, incl. the German (Satz, Bild, …)
-│   ├── episodic.md                   # worked example scenes  ← placeholder, see note below
+│   ├── episodic.md                   # worked scenes and objects of comparison
+│   ├── provenance.md                 # fidelity ledger: sources, scores, gate outcomes, limits
 │   ├── modes/                        # loaded when a mode's occasion arrives
 │   │   ├── inspector.md              # Mode 1 — finished claims
 │   │   ├── generative-colleague.md   # Mode 2 — open problems
@@ -81,10 +82,6 @@ The layout follows progressive disclosure: `SKILL.md` is always loaded, a mode m
 its occasion arrives, and a cluster file is loaded only when a problem needs that work's depth
 (aspect-seeing → `rpp.md`, hinges and certainty → `oc.md`, rules, proof and necessity → `rfm.md`,
 pictures and family resemblance → `pi.md`, register and cadence → `cv.md`).
-
-**Note:** `SKILL.md` points at `references/episodic.md`, which currently ships as a placeholder.
-Either fill it with worked scenes or delete it and remove the pointer from the last section of
-`SKILL.md`.
 
 ## Sourcing and honesty
 

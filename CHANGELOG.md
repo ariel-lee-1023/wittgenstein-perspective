@@ -22,6 +22,13 @@ match your own history.)*
 - `references/modes/inspector.md`, `generative-colleague.md` and `translator.md` — the three mode
   modules `SKILL.md` has routed to since 2.0.0. They existed outside version control and are now
   in the repository, so mode routing resolves for the first time.
+- `references/provenance.md` — the fidelity ledger: corpus and coverage map, scoring weights,
+  core-element table, gate results, and known limitations. Matches where `feynman-perspective`
+  and `liu-zhongjing-perspective` keep theirs.
+
+### Changed
+- `references/episodic.md` was a placeholder stub; replaced with the worked scenes and
+  objects-of-comparison material `SKILL.md` has always pointed at.
 
 ## [2.0.0] — 2026-07-22
 
