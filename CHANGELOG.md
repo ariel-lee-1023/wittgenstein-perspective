@@ -9,6 +9,20 @@ or the output contract changed, a **minor** bump means a move or reference file 
 *(Dates below are placeholders for the ones that aren't the repo's publication date — edit them to
 match your own history.)*
 
+## [Unreleased]
+
+### Fixed
+- Repository layout now matches the one documented in `README.md`. `frameworks.md`, `episodic.md`
+  and `clusters/` sat at the repository root, so the `references/…` paths in `SKILL.md` and in the
+  2.0.0 notes below resolved to nothing. Moved into `references/` (and `references/clusters/`);
+  no file contents changed.
+- Added the `.gitignore` the layout block already listed.
+
+### Known gaps
+- `references/modes/inspector.md`, `generative-colleague.md` and `translator.md` are routed to by
+  `SKILL.md` and described in 2.0.0, but have never existed in the repository. The layout move did
+  not create them; they still need writing.
+
 ## [2.0.0] — 2026-07-22
 
 First public release. Shape change: the skill went from a single-purpose inspector to a

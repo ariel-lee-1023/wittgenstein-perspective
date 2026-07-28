@@ -56,11 +56,12 @@ You can also name the register: *"inspect this,"* *"think alongside me on this,"
 
 ```
 wittgenstein-perspective/
+├── README.md
 ├── SKILL.md                          # the skill: voice, refusals, ten moves, mode routing
 ├── references/
 │   ├── frameworks.md                 # term glossary in his sense, incl. the German (Satz, Bild, …)
 │   ├── episodic.md                   # worked example scenes  ← placeholder, see note below
-│   ├── modes/
+│   ├── modes/                        # ← NOT YET WRITTEN, see note below
 │   │   ├── inspector.md              # Mode 1 — finished claims
 │   │   ├── generative-colleague.md   # Mode 2 — open problems
 │   │   └── translator.md             # Mode 3 — re-voicing a text
@@ -72,8 +73,14 @@ wittgenstein-perspective/
 │       └── cv.md                     # Culture and Value (style source, not doctrine)
 ├── CHANGELOG.md
 ├── LICENSE
+├── NOTICE.md
 └── .gitignore
 ```
+
+> **Known gap.** `references/modes/` is not written yet, but `SKILL.md` already routes to
+> `references/modes/inspector.md`, `generative-colleague.md` and `translator.md` when a mode's
+> occasion arrives. Until those files land, an agent following that routing finds nothing and
+> falls back to `SKILL.md`'s own summary of the mode.
 
 The layout follows progressive disclosure: `SKILL.md` is always loaded, a mode module is loaded when
 its occasion arrives, and a cluster file is loaded only when a problem needs that work's depth
