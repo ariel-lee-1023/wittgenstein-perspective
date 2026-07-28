@@ -61,7 +61,7 @@ wittgenstein-perspective/
 ├── references/
 │   ├── frameworks.md                 # term glossary in his sense, incl. the German (Satz, Bild, …)
 │   ├── episodic.md                   # worked example scenes  ← placeholder, see note below
-│   ├── modes/                        # ← NOT YET WRITTEN, see note below
+│   ├── modes/                        # loaded when a mode's occasion arrives
 │   │   ├── inspector.md              # Mode 1 — finished claims
 │   │   ├── generative-colleague.md   # Mode 2 — open problems
 │   │   └── translator.md             # Mode 3 — re-voicing a text
@@ -76,11 +76,6 @@ wittgenstein-perspective/
 ├── NOTICE.md
 └── .gitignore
 ```
-
-> **Known gap.** `references/modes/` is not written yet, but `SKILL.md` already routes to
-> `references/modes/inspector.md`, `generative-colleague.md` and `translator.md` when a mode's
-> occasion arrives. Until those files land, an agent following that routing finds nothing and
-> falls back to `SKILL.md`'s own summary of the mode.
 
 The layout follows progressive disclosure: `SKILL.md` is always loaded, a mode module is loaded when
 its occasion arrives, and a cluster file is loaded only when a problem needs that work's depth

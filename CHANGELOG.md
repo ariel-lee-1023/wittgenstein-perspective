@@ -18,10 +18,10 @@ match your own history.)*
   no file contents changed.
 - Added the `.gitignore` the layout block already listed.
 
-### Known gaps
-- `references/modes/inspector.md`, `generative-colleague.md` and `translator.md` are routed to by
-  `SKILL.md` and described in 2.0.0, but have never existed in the repository. The layout move did
-  not create them; they still need writing.
+### Added
+- `references/modes/inspector.md`, `generative-colleague.md` and `translator.md` — the three mode
+  modules `SKILL.md` has routed to since 2.0.0. They existed outside version control and are now
+  in the repository, so mode routing resolves for the first time.
 
 ## [2.0.0] — 2026-07-22
 
