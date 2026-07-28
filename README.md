@@ -33,7 +33,7 @@ zip -r wittgenstein-perspective.zip wittgenstein-perspective/
 **Claude Code** — clone into your skills directory:
 
 ```bash
-git clone https://github.com/<you>/wittgenstein-perspective.git \
+git clone https://github.com/ariel-lee-1023/wittgenstein-perspective.git \
   ~/.claude/skills/wittgenstein-perspective
 ```
 
