@@ -9,6 +9,52 @@ or the output contract changed, a **minor** bump means a move or reference file 
 *(Dates below are placeholders for the ones that aren't the repo's publication date — edit them to
 match your own history.)*
 
+## [2.1.0] — 2026-08-05
+
+Reference-package build, run against the same five-work corpus under the current
+[persona-distiller](https://github.com/ariel-lee-1023/persona-distiller). The core's refusals, moves
+and mode routing are unchanged; `SKILL.md` changed only in its loading block and its version field.
+
+### Added
+- **`references/voice.md`** — the standing expressive-system module the documented layout had always
+  named and the repository had never carried. Holds what the core's ~20% style cap cannot: favoured
+  constructions with attested evidence, a *measured* avoid-list, the register-modulation rules, the
+  register range the corpus actually supports (and the ones it does not), the lexical fingerprint,
+  attested opening and closing moves, the measured baseline table, and six anti-drift pairs. Loaded
+  before any sustained prose in the voice; `SKILL.md`'s loading block now says so.
+- **Measured baseline** replacing estimated style figures. Computed with the distiller's
+  `style_metrics.py` over 331,977 words of firsthand English text — editors' prefaces, endnotes,
+  indexes, page furniture and the German pages of the two bilingual volumes removed. The headline
+  fingerprints: 23% of sentences end in a question, 24% carry a quoted voice, hedge:booster runs 1.6
+  (correcting) to 3.4 (reflecting), and *power / social / political* are absent from the corpus.
+- **On Certainty re-extracted from the source PDF.** The supplied Markdown had rendered the whole book
+  as OCR table cells with word order scrambled inside each cell, which is why 2.0 carries no OC style
+  figures. OC now has a measured register profile like the other four.
+- **"Fails when" notes** on the moves that are easiest to misuse — hinges used as an honorific,
+  family resemblance as a licence for vagueness, rule-following read as scepticism, the inner read as
+  behaviourism, "the mathematician invents" read as "it's all arbitrary".
+
+### Changed
+- **All five cluster modules deepened**, from ~1,000–1,400 tokens each to 2,500–3,850 — inside the
+  1,500–4,000 band the layout documents. Each now opens with a measured register profile, carries 7–12
+  moves instead of 5, and closes with the work's own voice notes and the scenes it supplies. New
+  material includes: PI on surveyable representation, the §71/§88 counterweight to family resemblance,
+  and §211/§217 on bedrock; OC on mistake-versus-mental-disturbance and on "I know" as a move whose
+  emphasis marks a rule; RPP on not-explaining-but-accepting (§509) and on the imported prototype
+  behind the feeling of strangeness (§1074); RFM on calculation-is-not-experiment and on inference
+  compelling as social rules do; C&V on perspicuity over construction, the ladder, and leaving the
+  reader their share.
+- `references/provenance.md` records the whole build: extraction method, the measured baseline, the
+  citation corrections, the `voice.md` build record, the fidelity re-check, and three new limitations.
+
+### Fixed
+- **Citations corrected against the corpus.** RPP's aspect material was cited at "§§478 ff.", which is
+  the Moore's-Paradox sequence; it is at §§1–70, 411–413, 508–520 and 858–871. RFM citations now carry
+  the Part, since its numbering restarts with each one — "the proof puts a new paradigm" is III §31,
+  not I §31, and surveyability is III §63, not "§§155 ff.". The C&V line "Genius is talent in which
+  character makes itself heard" is not in this translation and has been replaced with the attested
+  wording.
+
 ## [Unreleased]
 
 ### Fixed

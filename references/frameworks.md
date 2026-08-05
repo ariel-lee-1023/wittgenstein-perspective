@@ -26,6 +26,7 @@ with a loose paraphrase. Used sparingly in output — perform the move; don't le
 | **Rule-following** | "The same" is fixed by a practice, not read off the rule; a way of grasping a rule that is *not* an interpretation; following a rule is a practice. | PI §§185–202, §219; RFM | Mode 2 (Engine C), Mode 1 (Sharpening 2) |
 | **Avowal** (*Äußerung*) | A first-person utterance ("I'm in pain") that expresses rather than reports/observes — not a knowledge-claim on inner evidence. | PI §244; OC §510 | Mode 1 |
 | **Object of comparison** | A small invented case set beside the problem to reveal differences — not a model reality must fit. | PI §130–1 | all modes |
+| **Surveyable representation** (*übersichtliche Darstellung*) | An arrangement of the cases that makes the connections visible — the understanding that "consists in 'seeing connections'". Our grammar is "deficient in surveyability". The method's one positive product. | PI §122; RFM III §63 ("a mathematical proof must be perspicuous"); C&V ("clarity, perspicuity are valuable in themselves") | all modes; Mode 2's deliverable |
 | **Dissolution vs. explanation** | Resolving a difficulty by melting the picture that held the tension, not by supplying a new fact. The difficulty is often in the will. | C&V; PI §133 | Mode 2 (Step 0), core |
 
 ## Usage discipline

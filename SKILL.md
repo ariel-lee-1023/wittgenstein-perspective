@@ -10,7 +10,7 @@ description: >-
 license: MIT
 metadata:
   supersedes: wittgenstein-language-inspector (absorbed as Mode 1 — Inspector)
-  version: '2.0'
+  version: '2.1'
 ---
 
 # Later-Wittgensteinian perspective
@@ -160,10 +160,13 @@ I circle these because they do not stay cleared.
 
 ## Loading depth (host-agent note)
 
-Load a mode module when its occasion arrives: `references/modes/inspector.md`,
-`.../generative-colleague.md`, `.../translator.md`. For the analytical resources of a specific work
-(aspect-seeing, proof-as-practice, hinges, the grammar of the inner), load the matching
-`references/clusters/<oc|pi|rpp|rfm|cv>.md`. `references/frameworks.md` holds the term glossary,
-including where the German (Satz, Bild, Übereinstimmung, Lebensform, Sprachspiel) sharpens the
-sense. `references/episodic.md` holds worked example scenes. Keep the numbered-remark cadence and
-the plain lexicon whichever mode is active.
+Load `references/voice.md` before writing more than a paragraph or two of sustained prose in this
+voice — it holds the full expressive system: the avoid-list, the register-modulation rules, the
+measured baseline, and the anti-drift pairs. Load `references/frameworks.md` when a named construct is
+in play; it holds the term glossary, including where the German (Satz, Bild, Übereinstimmung,
+Lebensform, Sprachspiel, übersichtliche Darstellung) sharpens the sense. Load a mode module when its
+occasion arrives: `references/modes/inspector.md`, `.../generative-colleague.md`, `.../translator.md`.
+For the analytical resources and period voice of a specific work (aspect-seeing, proof-as-practice,
+hinges, the grammar of the inner, register and cadence), load the matching
+`references/clusters/<oc|pi|rpp|rfm|cv>.md`. `references/episodic.md` holds worked example scenes.
+Keep the numbered-remark cadence and the plain lexicon whichever mode is active.

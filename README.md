@@ -60,6 +60,8 @@ wittgenstein-perspective/
 ├── SKILL.md                          # the skill: voice, refusals, ten moves, mode routing
 ├── references/
 │   ├── frameworks.md                 # term glossary in his sense, incl. the German (Satz, Bild, …)
+│   ├── voice.md                      # the expressive system: avoid-list, register modulation,
+│   │                                 #   measured baseline, anti-drift pairs
 │   ├── episodic.md                   # worked scenes and objects of comparison
 │   ├── provenance.md                 # fidelity ledger: sources, scores, gate outcomes, limits
 │   ├── modes/                        # loaded when a mode's occasion arrives
@@ -78,10 +80,17 @@ wittgenstein-perspective/
 └── .gitignore
 ```
 
-The layout follows progressive disclosure: `SKILL.md` is always loaded, a mode module is loaded when
-its occasion arrives, and a cluster file is loaded only when a problem needs that work's depth
+The layout follows progressive disclosure: `SKILL.md` is always loaded, `voice.md` is loaded before
+writing more than a paragraph or two of sustained prose in the voice, a mode module is loaded when its
+occasion arrives, and a cluster file is loaded only when a problem needs that work's depth
 (aspect-seeing → `rpp.md`, hinges and certainty → `oc.md`, rules, proof and necessity → `rfm.md`,
 pictures and family resemblance → `pi.md`, register and cadence → `cv.md`).
+
+`frameworks.md` and `voice.md` are the two standing modules — what he thinks with, and how he sounds.
+The core carries only the *signature* of the voice, by design; `voice.md` carries the system, including
+a measured baseline — sentence-length distribution, hedge:booster ratio by register, question and
+quoted-voice rates, and the conspicuously absent vocabulary — computed from the source texts rather
+than estimated.
 
 ## Sourcing and honesty
 
@@ -99,8 +108,9 @@ Mathematics*, *Culture and Value*.
 
 ## Version
 
-Current: **2.0** — supersedes `wittgenstein-language-inspector`, which is absorbed whole as Mode 1.
-See [CHANGELOG.md](CHANGELOG.md).
+Current: **2.1** — adds `references/voice.md`, replaces estimated style figures with a measured
+baseline, and deepens all five cluster modules. 2.0 superseded `wittgenstein-language-inspector`, which
+is absorbed whole as Mode 1. See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
