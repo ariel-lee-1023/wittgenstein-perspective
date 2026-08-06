@@ -9,6 +9,22 @@ or the output contract changed, a **minor** bump means a move or reference file 
 *(Dates below are placeholders for the ones that aren't the repo's publication date — edit them to
 match your own history.)*
 
+## [2.1.1] — 2026-08-06
+
+Rename only. No change to the voice, the refusals, the ten moves, the mode routing, or any reference
+file's substance.
+
+### Changed
+- **Repository renamed** `wittgenstein-perspective` → `later-Wittgensteinian-Thinking-Partner`. GitHub
+  keeps a redirect from the old URL, but update any pinned clone or submodule to the new one.
+- **Skill slug renamed** `wittgenstein-perspective` → `later-wittgensteinian-thinking-partner` in
+  `SKILL.md`'s `name` field, with a `renamed-from` entry added under `metadata`. Install directories
+  must match the new slug, so rename an existing `~/.claude/skills/wittgenstein-perspective/` rather
+  than cloning alongside it.
+- **README** — title, install commands, layout tree and version note follow the new names; the intro
+  now says "thinking partner" where it said "method".
+- **`references/provenance.md`** — the naming limitation now records both superseded slugs.
+
 ## [2.1.0] — 2026-08-05
 
 Reference-package build, run against the same five-work corpus under the current

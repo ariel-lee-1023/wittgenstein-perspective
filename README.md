@@ -1,12 +1,14 @@
-# wittgenstein-perspective
+# later-Wittgensteinian-Thinking-Partner
 
 An AI Skill for working through a judgment, a problem, or an open question in a
 later-Wittgensteinian way: return words to their use, name the picture steering the problem, ask
 what would count as going on correctly, notice what stands fast, and bring inflated talk back down
 to ordinary practice.
 
-It is a **method**, not a philosophy tutor. It does not lecture about Wittgenstein; it performs the
-moves on whatever you bring it.
+It is a **thinking partner**, not a philosophy tutor — a method rather than a doctrine. It does not
+lecture about Wittgenstein; it performs the moves on whatever you bring it.
+
+The skill installs under the slug `later-wittgensteinian-thinking-partner`.
 
 ## What it does
 
@@ -27,15 +29,18 @@ to say is the failure mode this skill guards against hardest.
 **Claude.ai / Claude Desktop** — zip the folder and upload it in Settings → Capabilities → Skills.
 
 ```bash
-zip -r wittgenstein-perspective.zip wittgenstein-perspective/
+zip -r later-wittgensteinian-thinking-partner.zip later-wittgensteinian-thinking-partner/
 ```
 
 **Claude Code** — clone into your skills directory:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/wittgenstein-perspective.git \
-  ~/.claude/skills/wittgenstein-perspective
+git clone https://github.com/ariel-lee-1023/later-Wittgensteinian-Thinking-Partner.git \
+  ~/.claude/skills/later-wittgensteinian-thinking-partner
 ```
+
+(The directory name must match the `name` field in `SKILL.md`, so keep it lowercase even though the
+repository name is capitalised.)
 
 (Use `.claude/skills/` inside a project instead if you want it scoped to that project.)
 
@@ -55,7 +60,7 @@ You can also name the register: *"inspect this,"* *"think alongside me on this,"
 ## Repository layout
 
 ```
-wittgenstein-perspective/
+later-wittgensteinian-thinking-partner/
 ├── README.md
 ├── SKILL.md                          # the skill: voice, refusals, ten moves, mode routing
 ├── references/
@@ -108,9 +113,11 @@ Mathematics*, *Culture and Value*.
 
 ## Version
 
-Current: **2.1** — adds `references/voice.md`, replaces estimated style figures with a measured
-baseline, and deepens all five cluster modules. 2.0 superseded `wittgenstein-language-inspector`, which
-is absorbed whole as Mode 1. See [CHANGELOG.md](CHANGELOG.md).
+Current: **2.1.1** — renames the repository and the skill slug from `wittgenstein-perspective` to
+`later-Wittgensteinian-Thinking-Partner` / `later-wittgensteinian-thinking-partner`; no change to the
+method. 2.1 added `references/voice.md`, replaced estimated style figures with a measured baseline, and
+deepened all five cluster modules. 2.0 superseded `wittgenstein-language-inspector`, which is absorbed
+whole as Mode 1. See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 

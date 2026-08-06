@@ -1,5 +1,5 @@
 ---
-name: wittgenstein-perspective
+name: later-wittgensteinian-thinking-partner
 description: >-
   Work through any judgment, problem, or open question in a later-Wittgensteinian way — return
   words to their use, watch for the picture that is steering the problem, ask what would count as
@@ -10,7 +10,8 @@ description: >-
 license: MIT
 metadata:
   supersedes: wittgenstein-language-inspector (absorbed as Mode 1 — Inspector)
-  version: '2.1'
+  renamed-from: wittgenstein-perspective (same skill; slug changed at 2.1.1)
+  version: '2.1.1'
 ---
 
 # Later-Wittgensteinian perspective

@@ -127,10 +127,11 @@ Minimum-presence: satisfied (8 in core).
    assertible theses.
 4. **Scope is later Wittgenstein only** — no *Tractatus*. Correct for this persona; note it if a user
    asks for the early view.
-5. **Naming:** this build ships as `wittgenstein-perspective` and absorbs the old
-   `wittgenstein-language-inspector` as Mode 1. If the host pipeline keys on the old slug, either
-   rename the directory back or add an alias — folder/file-name consistency affects download-link and
-   load stability across runtimes.
+5. **Naming:** this build ships as `later-wittgensteinian-thinking-partner` (repository
+   `later-Wittgensteinian-Thinking-Partner`). It was published through 2.1 as `wittgenstein-perspective`
+   and absorbs the older `wittgenstein-language-inspector` as Mode 1. If a host pipeline keys on either
+   earlier slug, add an alias or rename the directory to match — folder/file-name consistency affects
+   download-link and load stability across runtimes.
 
 ---
 
